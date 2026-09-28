@@ -114,11 +114,6 @@ h2 + .paper { border-top:0; padding-top:.6rem; }
 }
 
 /* CV page summary. */
-/* CV page: download link and embedded PDF. */
-.cv-download p { margin:0 0 1rem; }
-.cv-download a { display:inline-block; font-size:.9rem; font-weight:550; text-decoration:none; border:1px solid var(--accent); border-radius:2px; padding:.4rem .9rem; }
-.cv-download a:hover { background:var(--accent); color:#fff; }
-.cv-embed { display:block; width:100%; height:calc(100vh - 190px); min-height:600px; border:1px solid var(--line); }
 
 /* Compact PDF links immediately following paper titles. */
 .paper h3 .paper-pdf { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:.85rem; font-weight:500; white-space:nowrap; margin-left:.35rem; text-decoration:none; }
