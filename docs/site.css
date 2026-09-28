@@ -146,12 +146,15 @@ body.about-page .market-note { margin-bottom: 0; }
 .course-lines .syllabus-link { font-size:.85rem; font-weight:500; white-space:nowrap; margin-left:.4rem; text-decoration:none; }
 .course-lines .syllabus-link:hover { text-decoration:underline; }
 
-/* Teaching page: use the same wide column as the About page so each course fits on one line. */
+/* Teaching page width. Change 920px to make the column wider or narrower.
+   Below about 880px, Comparative Economic Systems wraps onto two lines. */
+body.teaching-page { --teaching-width: 920px; }
 body.teaching-page #quarto-content > main.content {
   grid-column: screen-start-inset / screen-end-inset;
   width: 100%;
-  max-width: none;
+  max-width: var(--teaching-width);
   min-width: 0;
+  justify-self: center;
 }
 
 /* About page: start the text level with the top of the photo. */
