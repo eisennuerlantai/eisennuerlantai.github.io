@@ -1,0 +1,33 @@
+---
+title: ""
+pagetitle: "Teaching"
+---
+
+## Instructor of Record
+
+::: {.course-lines}
+- [**Comparative Economic Systems** · ECON\ 5540/6540 [undergraduate/graduate]{.course-level} [\[Syllabus\]](files/ECON5540_Comparative_Economic_Systems.pdf){.syllabus-link}]{.course-name} [Fall 2026; Spring 2025]{.course-term}
+- [**Principles of Microeconomics** · ECON\ 2010 [\[Syllabus\]](files/ECON2010_Principles_of_Microeconomics.pdf){.syllabus-link}]{.course-name} [Summers 2025 and 2026]{.course-term}
+- [**Intermediate Macroeconomics** · ECON\ 4020 [\[Syllabus\]](files/ECON4020_Intermediate_Macroeconomics.pdf){.syllabus-link}]{.course-name} [Spring 2026]{.course-term}
+- [**Principles of Macroeconomics** · ECON\ 2020 [\[Syllabus\]](files/ECON2020_Principles_of_Macroeconomics.pdf){.syllabus-link}]{.course-name} [Fall 2025]{.course-term}
+- [**Mathematics Boot Camp** [for incoming Ph.D. students]{.course-level} [\[Syllabus\]](files/Math_Boot_Camp.pdf){.syllabus-link}]{.course-name} [Summer 2025]{.course-term}
+- [**Probability and Statistical Inference** · ECON\ 3640 [\[Syllabus\]](files/ECON3640_Probability_and_Statistical_Inference.pdf){.syllabus-link}]{.course-name} [Fall 2024]{.course-term}
+- [**Health Economics** · ECON\ 3190 [\[Syllabus\]](files/ECON3190_Health_Economics.pdf){.syllabus-link}]{.course-name} [Summer 2024]{.course-term}
+:::
+
+## Teaching Assistant
+
+::: {.course-lines}
+- [**Money and Banking** · ECON\ 3201]{.course-name} [Spring 2026]{.course-term}
+- [**Introduction to Econometrics** · QAMO\ 4651]{.course-name} [Fall 2024]{.course-term}
+- [**Health Economics** · ECON\ 3190]{.course-name} [Fall 2023; Spring 2024]{.course-term}
+- [**U.S. Economic History** · ECON\ 1740]{.course-name} [Fall 2023; Spring 2024]{.course-term}
+- [**Principles of Microeconomics** · ECON\ 2010]{.course-name} [Spring 2023]{.course-term}
+- [**Intermediate Microeconomics** · ECON\ 4010]{.course-name} [Fall 2022]{.course-term}
+:::
+
+## Tutoring
+
+::: {.course-lines}
+- [**Quantitative Methods for Economics** · Q-Pod Tutoring Center]{.course-name} [Fall 2024–Summer 2025]{.course-term}
+:::
