@@ -162,3 +162,20 @@ body.about-page .profile-text { padding-top: 30px; }
 .social-icon:hover, .social-icon:focus-visible { background:#173b30; }
 .social-rg { font-family:Georgia,"Times New Roman",serif; font-size:.85rem; font-weight:600; letter-spacing:-.02em; }
 .social-rg sup { font-size:.62em; top:-.45em; margin-left:.02em; }
+
+
+/* Research page width. Change 920px to make the column wider or narrower. */
+body.research-page { --research-width: 1100px; }
+body.research-page #quarto-content > main.content {
+  grid-column: screen-start-inset / screen-end-inset;
+  width: 100%;
+  max-width: var(--research-width);
+  min-width: 0;
+  justify-self: center;
+}
+
+/* Contact card: label on the left, value on the same line. */
+.contact-card p { display:grid; grid-template-columns:5.2rem 1fr; align-items:baseline; margin:0 0 .9rem; }
+.contact-card .contact-label { margin:0; }
+.contact-card p:has(.social-row) { align-items:center; }
+.contact-card .social-row { display:flex; gap:.6rem; align-items:center; }
