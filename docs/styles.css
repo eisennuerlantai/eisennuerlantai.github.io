@@ -127,3 +127,7 @@ h2 + .paper { border-top:0; padding-top:.6rem; }
 body.about-page #quarto-content { grid-template-rows: [content-top] auto [content-bottom] 0 [page-bottom]; }
 body.about-page main.content { padding-bottom: 1.5rem; margin-bottom: 0; }
 body.about-page .market-note { margin-bottom: 0; }
+
+/* Research page: topic labels within Working Papers. */
+.topic-label { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; font-weight:650; color:var(--accent); margin:2.2rem 0 .2rem; }
+.topic-label p { margin:0; }
