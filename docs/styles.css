@@ -122,3 +122,8 @@ h2 + .paper { border-top:0; padding-top:.6rem; }
 /* Compact PDF links immediately following paper titles. */
 .paper h3 .paper-pdf { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:.85rem; font-weight:500; white-space:nowrap; margin-left:.35rem; text-decoration:none; }
 .paper h3 .paper-pdf:hover { text-decoration:underline; }
+
+/* About page: tighten the space below the job market note so the footer fits on the first screen. */
+body.about-page #quarto-content { grid-template-rows: [content-top] auto [content-bottom] 0 [page-bottom]; }
+body.about-page main.content { padding-bottom: 1.5rem; margin-bottom: 0; }
+body.about-page .market-note { margin-bottom: 0; }
