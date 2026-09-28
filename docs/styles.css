@@ -118,3 +118,7 @@ h2 + .paper { border-top:0; padding-top:.6rem; }
 .cv-summary p { margin:0 0 1.2rem; line-height:1.6; }
 .cv-summary .contact-label { margin-bottom:.1rem; }
 .cv-page .paper-links p { margin:0 0 2.2rem; }
+
+/* Compact PDF links immediately following paper titles. */
+.paper h3 .paper-pdf { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:.85rem; font-weight:500; white-space:nowrap; margin-left:.35rem; text-decoration:none; }
+.paper h3 .paper-pdf:hover { text-decoration:underline; }
