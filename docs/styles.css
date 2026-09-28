@@ -145,3 +145,11 @@ body.about-page .market-note { margin-bottom: 0; }
 }
 .course-lines .syllabus-link { font-size:.85rem; font-weight:500; white-space:nowrap; margin-left:.4rem; text-decoration:none; }
 .course-lines .syllabus-link:hover { text-decoration:underline; }
+
+/* Teaching page: use the same wide column as the About page so each course fits on one line. */
+body.teaching-page #quarto-content > main.content {
+  grid-column: screen-start-inset / screen-end-inset;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
