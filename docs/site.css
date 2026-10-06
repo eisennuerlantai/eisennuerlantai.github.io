@@ -179,3 +179,8 @@ body.research-page #quarto-content > main.content {
 .contact-card .contact-label { margin:0; }
 .contact-card p:has(.social-row) { align-items:center; }
 .contact-card .social-row { display:flex; gap:.6rem; align-items:center; }
+
+/* Contact card: plain, evenly spaced values; links show their underline only on hover. */
+.contact-card .contact-value { line-height:1.45; }
+.contact-card .contact-value a:not(.social-icon) { text-decoration:none; }
+.contact-card .contact-value a:not(.social-icon):hover { text-decoration:underline; }
